@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const databaseURI =
     process.env.MONGODB_URI ||
-    "mongodb+srv://admin:DybpakINp7vyaw9F@cluster0.9babd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+    "mongodb://localhost/ml4k";
 
 mongoose.connect(
     databaseURI,
